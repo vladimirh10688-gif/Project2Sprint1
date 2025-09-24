@@ -1,0 +1,65 @@
+.header {
+  Font-family: Roboto, sens-serif;
+}
+
+.table_choise_price {
+  display: flex;
+  justify-content: center;
+}
+
+.table_price {
+  display: inline-grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: 1fr;
+  gap: 1px 6px;
+  border: 1px solid;
+  min-height: 600px;
+  /* grid-auto-columns: min-content; */
+  width: min-content;
+  align-content: center;
+}
+
+.card {
+  width: 266px;
+}
+
+.choise_personal {
+  grid-area: 1/1/1/1;
+  background: linear-gradient(rgba(253, 198, 36, 1), rgba(230, 196, 52, 1));
+  /* outline: 0px solid transparent;  */
+}
+
+.choise_personal:hover {
+   border: 3px solid #20A1ff;
+   background-color:aqua;
+}
+
+.choise_business {
+  grid-area: 1/2/1/2;
+  background: linear-gradient(rgba(85, 220, 231, 1), rgba(61, 202, 212, 1));
+  
+}
+
+.choise_business:hover {
+   border: 3px solid #20A1ff;
+}
+
+.choise_developer {
+  grid-area: 1/3/1/3;
+  background: linear-gradient(rgba(107, 233, 255, 1), rgba(61, 172, 252, 1));
+  
+}
+
+.choise_developer:hover {
+  border: 3px solid #20A1ff;
+}
+
+.choise_agency {
+  grid-area: 1/4/1/4;
+  background: linear-gradient(rgba(192, 206, 220, 1), rgba(147, 159, 179, 1));
+  
+}
+
+.choise_agency:hover {
+   border: 3px solid #20A1ff;
+}
