@@ -42,7 +42,7 @@
 
 .choise_business:hover {
    border: 3px solid #20A1ff;
-   
+
 }
 
 .choise_developer {
@@ -63,4 +63,85 @@
 
 .choise_agency:hover {
    border: 3px solid #20A1ff;
+}
+
+.tarif {
+  margin: 14.7px 74px 0 35px;
+  color: #ffffff;
+}
+
+.name_tarif {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 21px;
+  /* line-height: 100%; */
+  letter-spacing: 0px;
+  line-height: 20px;
+  height: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.detail_description {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.img_personal {
+  height: 114.3px;
+  width: 196.58px;
+  margin: 72px 36.42px 33px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 1px;
+  margin: 27px 0 0 35px;
+}
+
+.valute {
+
+}
+
+.price_ {
+   font-family: Roboto;
+   font-weight: 700;
+   font-size: 67px;
+   line-height: 100%;
+   letter-spacing: -0.1px;
+}
+
+.attributes_tarif {
+  display: grid;
+  grid-template-columns: 20px 60px;
+}
+
+.button_block {
+  display:flex;
+  justify-content: center;
+}
+
+.button {
+  display: inline-block;
+  width: 256px;
+  min-height: 51px;
+  border: 3px;
+  border-style:solid;
+  color: white;
+  font-family: Raleway,sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor:pointer;
+  
 }
