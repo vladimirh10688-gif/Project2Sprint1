@@ -40,8 +40,8 @@ header {
   display: flex;
   flex-direction: column;
  /*  min-height: 500px; */
- justify-content: space-between;
- gap: 0px;
+ /* justify-content: space-between;
+ gap: 0px; */
  /* Здесь проблема
  добрый день, подскажите как сделать кнопку купить постоянно прижатой к нижнему краю границы grid-ячейки ? карточка это грид-ячейка внутри которого flex. из за разницы контента в карточках в первой карточке внизу образуется пустое пространство внутри grid-ячейки. если сделать space-between тогда из за разрывов между блоками тексты сместятся по вертикали, а мне нужно только блок с кнопкой прижать к низу  */
  /* align-content: flex-end; */
@@ -198,6 +198,7 @@ line-height: 1px;
   align-self: center;
   /* align-items: flex-end; */
   margin-bottom: 36px;
+  margin-top: auto;
 }
 
 .button {
